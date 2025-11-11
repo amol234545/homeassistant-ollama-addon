@@ -10,6 +10,9 @@ url: https://ollama.com
 map:
   - config:rw
   - share:rw
+  - type: share
+    read_only: False
+    path: ~/.ollama
 image: docker.io/ollama/ollama
 init: false
 ingress: true
