@@ -12,7 +12,7 @@ map:
   - share:rw
   - type: share
     read_only: False
-    path: ~/.ollama
+    path: /home/root/.ollama
 image: docker.io/ollama/ollama
 init: false
 ingress: true
